@@ -24,7 +24,7 @@ ul, h1, h2, h3, p {
     padding: 0;
     margin: 0;
 }
-section {
+.section {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
 }
@@ -290,9 +290,13 @@ nav {
 }
 .portfolio-list li {
     padding-bottom: 20px;
+
+    border-bottom: 1px;
 }
 .portfolio-list img {
     margin-bottom: 20px;
+    max-width: 370px;
+    max-height: 294px;
 }
 .portfolio-list .heading {
     margin-right: 24px;
