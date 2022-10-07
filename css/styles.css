@@ -24,6 +24,11 @@ ul, h1, h2, h3, p {
     padding: 0;
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .section {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
@@ -58,7 +63,7 @@ ul, h1, h2, h3, p {
     color: var(--color-heading);
     font-size: 36px;
     text-align: center;
-    line-height: 1.16;
+    line-height: 1.1719;
 }
 .heading {
     color: var(--color-heading);
@@ -76,6 +81,7 @@ font-style: normal;
 }
 .address-list .link {
     color: var(--color-white-transperent);
+    line-height: 1.7142;
 }
 .address-list .map {
     color: var(--color-white);
@@ -209,6 +215,7 @@ nav {
 }
 .features-list p {
     font-size: 14px;
+    line-height: 1.7142;
 }
 .we-do-section {
     padding-top: 0;
@@ -295,8 +302,6 @@ nav {
 }
 .portfolio-list img {
     margin-bottom: 20px;
-    max-width: 370px;
-    max-height: 294px;
 }
 .portfolio-list .heading {
     margin-right: 24px;
